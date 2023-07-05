@@ -1,0 +1,82 @@
+.employees {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.employees__card {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: var(--text-color);
+}
+.main-sabtitle__employees:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--background-buttons-color);
+}
+.names {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.names-jobs-style {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.jobs {
+  color: var(--feedback-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.workers-social__link-job {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+  }
+}
+.workers-social__link-job-images {
+  width: 20px;
+  height: 20px;
+  fill: var(--social-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .workers-social__link-job:focus &,
+  .workers-social__link-job:hover & {
+    fill: var(--text-color);
+  }
+}
+.workers-social {
+  display: flex;
+  justify-content: space-between;
+}
+.workers-social__link:not(:last-child) {
+  margin-right: 10px;
+}

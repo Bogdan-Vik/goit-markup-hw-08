@@ -1,0 +1,27 @@
+.text-portfolio {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 370px;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    position: absolute;
+    bottom: 0;
+    top: 75%;
+    z-index: 1;
+    transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .employees__card-portfolio-link:hover &,
+    .employees__card-portfolio-link:focus & {
+      top: 0;
+    }
+  }
+  .text-portfolio-theme {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    padding: 64px 24px;
+    color: var(--text-color);
+  }
