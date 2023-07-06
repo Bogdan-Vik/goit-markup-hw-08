@@ -47,7 +47,7 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-btn">
+        <button type="button" class="mobile-menu-btn" data-menu-open>
           <svg  class="mobile-menu-btn__icon" width="40" height="40">
             <use href="./images/svg/social.svg#burger-menu-icon"></use>
           </svg>
@@ -86,13 +86,46 @@
           </li>
         </ul>
       </div>
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="container mobile-menu__container">
-          <button class="mobile-menu__close-btn">
+          <button class="mobile-menu__close-btn " data-menu-close>
             <svg class="mobile-menu__close-icon" width="18" height="18">
               <use href="./images/svg/social.svg#close-button"></use>
             </svg>
           </button>
+          <ul class="mobile-menu_nav">
+            <li class="mobile-menu__nav-list">
+              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-main">Студія</a>
+            </li>
+            <li class="mobile-menu__nav-list">
+              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-main">Портфоліо</a>
+            </li>
+            <li class="mobile-menu__nav-list">
+              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-main">Контакти</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu_nav">
+            <li class="mobile-menu__nav-list">
+              <a href="tel:+380961111111" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-num">+38 096 111 11 11</a>
+            </li>
+            <li class="mobile-menu__nav-list">
+              <a href="mailto:info@devstudio.com" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-mail">info@devstudio.com</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu_nav mobile-menu_nav-pos">
+            <li class="mobile-menu__nav-list">
+              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social">Instagramm</a>
+            </li>
+            <li class="mobile-menu__nav-list">
+              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social">Twitter</a>
+            </li>
+            <li class="mobile-menu__nav-list">
+              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social">Facebook</a>
+            </li>
+            <li class="mobile-menu__nav-list">
+              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social">Linkedin</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -698,5 +731,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
