@@ -1,30 +1,46 @@
-.saptitel{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--primary-text-color);
-    max-width: 270px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    }
-    .sabtitel{
-        
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--feedback-color);
-    max-width: 270px;
-    margin-top: 0;
-    margin-bottom: 0;
-    }
+@media screen and (min-width:480px){
     .main-sabtitle{
         display: flex;
         margin-top: 0;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .background-color {
+        display: flex;
+        background-color: var(--background-buttons-color);
+        width: 450px;
+        height: 120px;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .saptitel{ 
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--primary-text-color);
+        max-width: 450px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+    .sabtitel{  
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--feedback-color);
+        max-width: 450px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .main-sabtitle__employees{
+        margin-bottom: 30px;
     }
     .main-sabtitle__employees-images{
         display: flex;
@@ -39,3 +55,38 @@
         padding-left: 0;
         margin-top: 0;
     }
+    
+}  
+@media screen and (min-width:768px){
+    .background-color {
+        width: 354px; 
+    }
+    .saptitel{ 
+        max-width: 354px;
+        }
+    .sabtitel{   
+        max-width: 354px; 
+    }
+}
+@media screen and (max-width:1199px){
+    .main-sabtitle__employees:nth-child(2n){
+        margin-right: 0;
+      }
+}
+@media screen and (min-width:1200px){
+    .main-sabtitle{
+        display: flex;
+        margin-top: 0;
+        align-items: center;
+    }
+    .background-color {
+        width: auto;   
+    }
+
+      .saptitel{  
+        max-width: 270px; 
+        }
+    .sabtitel{   
+        max-width: 270px;
+    }
+}
