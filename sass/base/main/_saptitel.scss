@@ -31,6 +31,9 @@
         padding-left: 0;
         margin-top: 0;
     }
+    .main-sabtitle__employees:not(:last-child) {
+        margin-right: 30px;
+      }
     .work-images{
         display: flex;
         padding-left: 0;
