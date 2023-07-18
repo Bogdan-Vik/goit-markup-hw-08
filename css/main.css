@@ -1019,45 +1019,45 @@ address {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.work-images__example {
-  position: relative;
-  display: block;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 1199px) {
+  .our-work {
+    display: none;
+  }
 }
-
-.our-job {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  width: 370px;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
+@media screen and (min-width: 1200px) {
+  .work-images__example {
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+  }
+  .work-images__example:not(:last-child) {
+    margin-right: 30px;
+  }
+  .our-advantages {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+  .our-work {
+    padding-bottom: 94px;
+  }
+  .work-images__example-pictures {
+    display: block;
+  }
+  .employees__card-pictures {
+    display: block;
+  }
 }
-
-.work-images__example:not(:last-child) {
-  margin-right: 30px;
-}
-
-.our-advantages {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.our-work {
-  padding-bottom: 94px;
-}
-
-.work-images__example-pictures {
-  display: block;
-}
-
-.employees__card-pictures {
-  display: block;
-}
-
 .text-portfolio {
   align-items: center;
   justify-content: center;
