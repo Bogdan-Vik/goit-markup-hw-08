@@ -567,11 +567,6 @@ address {
   fill: var(--text-color);
 }
 
-.workers-social {
-  display: flex;
-  justify-content: space-between;
-}
-
 .workers-social__link:not(:last-child) {
   margin-right: 10px;
 }
@@ -1019,9 +1014,32 @@ address {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+@media screen and (max-width: 767px) {
+  .employees__card-pictures {
+    width: 450px;
+    height: 460px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .our-work {
     display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .employees__card-pictures {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 354px;
+    height: 374px;
+  }
+}
+@media screen and (min-width: 480px) {
+  .employees__card-pictures {
+    display: block;
+  }
+  .workers-social {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1052,9 +1070,6 @@ address {
     padding-bottom: 94px;
   }
   .work-images__example-pictures {
-    display: block;
-  }
-  .employees__card-pictures {
     display: block;
   }
 }

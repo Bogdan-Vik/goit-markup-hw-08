@@ -70,10 +70,7 @@
     fill: var(--text-color);
   }
 }
-.workers-social {
-  display: flex;
-  justify-content: space-between;
-}
+
 .workers-social__link:not(:last-child) {
   margin-right: 10px;
 }

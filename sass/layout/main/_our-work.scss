@@ -1,9 +1,32 @@
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width:767px){
+  .employees__card-pictures {
+    width: 450px;
+    height: 460px;
+  }
+  
+}
+@media screen and (max-width:1199px){
   .our-work{
     display: none;
   }
-  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+  .employees__card-pictures{
+  object-fit: cover;
+  width: 354px;
+    height: 374px;
+  }
+}
+@media screen and (min-width:480px){
+  .employees__card-pictures {
+    display: block;
+  }
+  .workers-social {
+    display: flex;
+    justify-content: center;
+  }
 }
 @media screen and (min-width:1200px){
   .work-images__example {
@@ -35,10 +58,9 @@
   .work-images__example-pictures {
     display: block;
   }
-  .employees__card-pictures {
-    display: block;
-  }
+  
 }
+
 
 
 
