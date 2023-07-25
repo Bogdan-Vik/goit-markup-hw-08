@@ -24,6 +24,7 @@
     visibility: hidden;
     pointer-events: none;
     background-color: var(--text-color);
+    z-index: 4;
 }
 .mobile-menu.is-open{
   opacity: 1;
