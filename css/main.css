@@ -500,6 +500,11 @@ footer {
     margin-bottom: 15px;
   }
 }
+@media screen and (min-width: 480px) {
+  .portfolio-indent {
+    justify-content: center;
+  }
+}
 .button {
   padding: 6px 22px;
   margin-top: 5px;
@@ -546,13 +551,6 @@ footer {
 }
 .main-button:active {
   background-color: var(--accent-color);
-}
-
-.employees {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
 }
 
 .employees__card {
@@ -1086,21 +1084,71 @@ footer {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .text-portfolio {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 450px;
+    height: 294px;
+    background: rgba(33, 150, 243, 0.9);
+    position: absolute;
+    bottom: 0;
+    top: 75%;
+    z-index: 1;
+    transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .employees__card-portfolio-link:hover .text-portfolio, .employees__card-portfolio-link:focus .text-portfolio {
+    top: 0;
+  }
+  .border-color {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--background-buttons-color);
+    border-top: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--text-color);
+    position: relative;
+    z-index: 2;
+  }
+  .employees__card-portfolio {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .employees__card-portfolio-link {
+    display: block;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .employees__card-portfolio-link:focus, .employees__card-portfolio-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
-.border-color {
-  border-width: 1px;
-  border-style: solid;
-  border-color: var(--background-buttons-color);
-  border-top: none;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: var(--text-color);
-  position: relative;
-  z-index: 2;
+@media screen and (min-width: 768px) {
+  .employees__card-size {
+    width: 354px;
+  }
+  .text-portfolio {
+    width: 354px;
+  }
+  .employees {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
 }
-
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .border-color {
+    width: 354px;
+    height: 140px;
+  }
+}
 .portfolio-headers {
   font-style: normal;
   font-weight: 700;
@@ -1122,26 +1170,9 @@ footer {
   margin-top: 0;
 }
 
-.employees__card-portfolio {
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
 .portfolio-background {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.employees__card-portfolio-link {
-  display: block;
-  text-decoration: none;
-  color: var(--primary-text-color);
-  position: relative;
-  overflow: hidden;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.employees__card-portfolio-link:focus, .employees__card-portfolio-link:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 @media screen and (max-width: 767px) {
@@ -1203,23 +1234,6 @@ footer {
     display: block;
   }
 }
-.text-portfolio {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 370px;
-  height: 294px;
-  background: rgba(33, 150, 243, 0.9);
-  position: absolute;
-  bottom: 0;
-  top: 75%;
-  z-index: 1;
-  transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.employees__card-portfolio-link:hover .text-portfolio, .employees__card-portfolio-link:focus .text-portfolio {
-  top: 0;
-}
-
 .text-portfolio-theme {
   font-family: "Roboto";
   font-style: normal;
