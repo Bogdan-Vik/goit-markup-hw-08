@@ -1,7 +1,4 @@
 
-@media screen and (max-width:767px){}
-
-
 @media screen and (min-width:480px){
   .main-section-color {
     width: 100%;
@@ -15,6 +12,7 @@
     background-color: var(--background-color);
     padding-top: 118px;
     padding-bottom: 118px;
+    margin-bottom: 60px;
   }
   .main-section__text-type {
     text-align: center;
@@ -50,6 +48,7 @@
     margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
+    margin-bottom: 0;
   }
   .main-section__text-type {
     max-width: 696px; 

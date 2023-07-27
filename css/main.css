@@ -821,6 +821,7 @@ footer {
     background-color: var(--background-color);
     padding-top: 118px;
     padding-bottom: 118px;
+    margin-bottom: 60px;
   }
   .main-section__text-type {
     text-align: center;
@@ -851,6 +852,7 @@ footer {
     margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
+    margin-bottom: 0;
   }
   .main-section__text-type {
     max-width: 696px;
@@ -877,7 +879,6 @@ footer {
     display: flex;
     margin-top: 0;
     flex-wrap: wrap;
-    align-items: center;
   }
   .background-color {
     display: flex;
@@ -948,9 +949,8 @@ footer {
 }
 @media screen and (min-width: 1200px) {
   .main-sabtitle {
-    display: flex;
+    justify-content: center;
     margin-top: 0;
-    align-items: center;
   }
   .background-color {
     width: auto;
@@ -1147,6 +1147,8 @@ footer {
     border-radius: 0px 0px 4px 4px;
     background-color: var(--text-color);
   }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .employees__card:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1167,6 +1169,10 @@ footer {
     margin-top: -30px;
     margin-left: -30px;
   }
+  .employees__card {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .border-color {
@@ -1178,6 +1184,9 @@ footer {
   }
 }
 @media screen and (min-width: 1200px) {
+  .employees__card {
+    margin-bottom: 0;
+  }
   .text-portfolio {
     width: 370px;
   }

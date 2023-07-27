@@ -3,7 +3,6 @@
         display: flex;
         margin-top: 0;
         flex-wrap: wrap;
-        align-items: center;
     }
     .background-color {
         display: flex;
@@ -75,9 +74,8 @@
 }
 @media screen and (min-width:1200px){
     .main-sabtitle{
-        display: flex;
+        justify-content: center;
         margin-top: 0;
-        align-items: center;
     }
     .background-color {
         width: auto;   

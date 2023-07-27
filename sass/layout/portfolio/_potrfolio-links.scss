@@ -78,10 +78,15 @@
     border-radius: 0px 0px 4px 4px;
     background-color: var(--text-color);
   }
-  .employees__card:not(:last-child){
-    margin-bottom: 30px;
-  }
+  
 }
+@media screen and (min-width:480px) and (max-width:767px){
+.employees__card:not(:last-child){
+  margin-bottom: 30px;
+}
+}
+
+
 @media screen and (min-width:768px){
   .employees__card-portfolio{
     margin-left: 30px;
@@ -98,6 +103,10 @@
     margin-top: -30px;
     margin-left: -30px;
   }
+  .employees__card{
+    margin-left: 30px;
+    margin-top: 30px;
+  }
   
 }
 @media screen and (min-width:768px) and (max-width:1199px){
@@ -112,6 +121,9 @@
 }
 
 @media screen and (min-width:1200px){
+  .employees__card{
+    margin-bottom: 0;
+  }
   .text-portfolio {
     width: 370px;
   }
