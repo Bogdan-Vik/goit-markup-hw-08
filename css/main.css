@@ -1080,6 +1080,13 @@ footer {
   height: 60px;
 }
 
+@media screen and (min-width: 480px) {
+  .employees__card-size {
+    width: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 .border-color {
   border-width: 1px;
   border-style: solid;
