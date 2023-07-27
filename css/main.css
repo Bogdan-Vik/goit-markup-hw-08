@@ -951,6 +951,7 @@ footer {
   .main-sabtitle {
     justify-content: center;
     margin-top: 0;
+    flex-wrap: nowrap;
   }
   .background-color {
     width: auto;
@@ -1184,6 +1185,9 @@ footer {
   }
 }
 @media screen and (min-width: 1200px) {
+  .employees {
+    flex-wrap: nowrap;
+  }
   .employees__card {
     margin-bottom: 0;
   }

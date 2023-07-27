@@ -121,6 +121,9 @@
 }
 
 @media screen and (min-width:1200px){
+  .employees{
+    flex-wrap: nowrap;
+  }
   .employees__card{
     margin-bottom: 0;
   }
