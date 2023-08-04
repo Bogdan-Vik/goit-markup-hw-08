@@ -1239,6 +1239,10 @@ footer {
   }
 }
 @media screen and (min-width: 1200px) {
+  .employees__card-pictures {
+    width: 270px;
+    height: 260px;
+  }
   .work-images__example {
     position: relative;
     display: block;
