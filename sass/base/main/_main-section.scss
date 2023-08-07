@@ -7,7 +7,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("./images/background/background-1200.jpg");
+      url("/images/background/background-480.jpg");
     background-size: cover;
     background-color: var(--background-color);
     padding-top: 118px;
@@ -39,11 +39,22 @@
 
 
 @media screen and (min-width: 768px) {
-
+  .main-section-color{
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("/images/background/background-768.jpg");
+  }
 }
 @media screen and (min-width: 1200px){
   .main-section-color {
-    width: 100%;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("/images/background/background-1200.jpg");
+      width: 1600px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -77,7 +88,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
         ), 
-      url("./images/background/background-1200@x2.jpg");
+      url("/images/background/background-1200@x2.jpg");
     }
   }
   

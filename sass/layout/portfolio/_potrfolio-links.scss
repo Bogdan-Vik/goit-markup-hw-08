@@ -110,9 +110,16 @@
   
 }
 @media screen and (min-width:768px) and (max-width:1199px){
+  
   .border-color{
     width: 354px;
-    height: 140px;
+    display:flex;
+    flex-direction: column;
+  }
+  .portfolio-content{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 104px;
   }
   .portfolio-background {
     padding-top: 94px;
