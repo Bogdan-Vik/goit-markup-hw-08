@@ -1,6 +1,8 @@
-@media screen and (min-width:480px){
+@media screen and (min-width:320px){
   .employees__card-pictures {
     display: block;
+    width: 100%;
+    height: auto;
   }
   .workers-social {
     display: flex;

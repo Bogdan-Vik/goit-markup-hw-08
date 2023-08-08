@@ -885,21 +885,25 @@ footer {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/background-1200@x2.jpg");
   }
 }
-@media screen and (min-width: 480px) {
-  .main-sabtitle {
-    display: flex;
-    margin-top: 0;
-    flex-wrap: wrap;
-  }
+@media screen and (min-width: 320px) {
   .background-color {
     display: flex;
     background-color: var(--background-buttons-color);
-    width: 450px;
-    height: 120px;
+    width: 100%;
+    height: auto;
     border-radius: 4px;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+  }
+  .main-sabtitle__employees-images {
+    display: flex;
+    padding-left: 0;
+    margin-top: 0;
+    width: 25%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   .saptitel {
     font-style: normal;
@@ -928,10 +932,22 @@ footer {
   .main-sabtitle__employees {
     margin-bottom: 30px;
   }
-  .main-sabtitle__employees-images {
+}
+@media screen and (min-width: 480px) {
+  .main-sabtitle {
     display: flex;
-    padding-left: 0;
     margin-top: 0;
+    flex-wrap: wrap;
+  }
+  .background-color {
+    width: 450px;
+    height: 120px;
+  }
+  .main-sabtitle__employees-images {
+    width: 70px;
+    height: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .main-sabtitle__employees:not(:last-child) {
     margin-right: 30px;
@@ -1089,7 +1105,7 @@ footer {
   height: 60px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .portfolio-headers {
     font-style: normal;
     font-weight: 700;
@@ -1169,7 +1185,7 @@ footer {
     background-color: var(--text-color);
   }
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .employees__card:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1224,9 +1240,11 @@ footer {
     width: 370px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .employees__card-pictures {
     display: block;
+    width: 100%;
+    height: auto;
   }
   .workers-social {
     display: flex;
