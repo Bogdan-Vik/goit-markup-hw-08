@@ -1,9 +1,3 @@
-
-@media screen and (max-width:1199px){
-  .our-work{
-    display: none;
-  }
-}
 @media screen and (min-width:480px){
   .employees__card-pictures {
     display: block;
@@ -13,6 +7,13 @@
     justify-content: center;
   }
 }
+
+@media screen and (max-width:1199px){
+  .our-work{
+    display: none;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1199px){
   .employees__card-pictures{
   object-fit: cover;
