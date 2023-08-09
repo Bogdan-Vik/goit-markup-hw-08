@@ -5,6 +5,10 @@
   justify-content: space-between;
 }
 @media screen and (max-width:768px){
+  .after-link{
+    color: var(--accent-color);
+    text-decoration: none;
+  }
   .main-header{
     position: relative;
   }
@@ -45,6 +49,7 @@ text-align: left;
   .mobile-menu_nav-pos{
     display: flex;
     margin-bottom: 0;
+    flex-wrap: wrap;
   }
 .mobile-menu_nav-list-link-num{
 font-size: 34px;
