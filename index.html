@@ -3,8 +3,8 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>WebStudio</title>
     <link
       rel="stylesheet"
@@ -13,14 +13,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <body>
     <header class="main-header">
@@ -48,7 +48,7 @@
           </ul>
         </nav>
         <button type="button" class="mobile-menu-btn" data-menu-open>
-          <svg  class="mobile-menu-btn__icon" width="40" height="40">
+          <svg class="mobile-menu-btn__icon" width="40" height="40">
             <use href="./images/svg/social.svg#burger-menu-icon"></use>
           </svg>
         </button>
@@ -88,42 +88,76 @@
       </div>
       <div class="mobile-menu" data-menu>
         <div class="container mobile-menu__container">
-          <button class="mobile-menu__close-btn " data-menu-close>
+          <button class="mobile-menu__close-btn" data-menu-close>
             <svg class="mobile-menu__close-icon" width="18" height="18">
               <use href="./images/svg/social.svg#close-button"></use>
             </svg>
           </button>
           <ul class="mobile-menu_nav mobile-menu_nav-margin">
             <li class="mobile-menu__nav-list mobile-menu__nav-list-links">
-              <a href="" class=" mobile-menu_nav-list-link-main after-link">Студія</a>
+              <a href="" class="mobile-menu_nav-list-link-main after-link"
+                >Студія</a
+              >
             </li>
             <li class="mobile-menu__nav-list mobile-menu__nav-list-links">
-              <a href="./portfolio.html" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-main">Портфоліо</a>
+              <a
+                href="./portfolio.html"
+                class="mobile-menu_nav-list-link mobile-menu_nav-list-link-main"
+                >Портфоліо</a
+              >
             </li>
             <li class="mobile-menu__nav-list mobile-menu__nav-list-links">
-              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-main">Контакти</a>
+              <a
+                href=""
+                class="mobile-menu_nav-list-link mobile-menu_nav-list-link-main"
+                >Контакти</a
+              >
             </li>
           </ul>
           <ul class="mobile-menu_nav mobile-menu_nav-link-margin">
             <li class="mobile-menu__nav-list mobile-menu__nav-list-margin">
-              <a href="tel:+380961111111" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-num">+38 096 111 11 11</a>
+              <a
+                href="tel:+380961111111"
+                class="mobile-menu_nav-list-link mobile-menu_nav-list-link-num"
+                >+38 096 111 11 11</a
+              >
             </li>
             <li class="mobile-menu__nav-list mobile-menu__nav-list-margin">
-              <a href="mailto:info@devstudio.com" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-mail">info@devstudio.com</a>
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-menu_nav-list-link mobile-menu_nav-list-link-mail"
+                >info@devstudio.com</a
+              >
             </li>
           </ul>
           <ul class="mobile-menu_nav mobile-menu_nav-pos">
             <li class="mobile-menu__nav-list mobile-menu__nav-list-border">
-              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social">Instagramm</a>
+              <a
+                href=""
+                class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social"
+                >Instagramm</a
+              >
             </li>
             <li class="mobile-menu__nav-list mobile-menu__nav-list-border">
-              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social">Twitter</a>
+              <a
+                href=""
+                class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social"
+                >Twitter</a
+              >
             </li>
             <li class="mobile-menu__nav-list mobile-menu__nav-list-border">
-              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social">Facebook</a>
+              <a
+                href=""
+                class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social"
+                >Facebook</a
+              >
             </li>
             <li class="mobile-menu__nav-list mobile-menu__nav-list-border">
-              <a href="" class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social">Linkedin</a>
+              <a
+                href=""
+                class="mobile-menu_nav-list-link mobile-menu_nav-list-link-social"
+                >Linkedin</a
+              >
             </li>
           </ul>
         </div>
@@ -217,75 +251,87 @@
             <li class="work-images__example">
               <picture>
                 <!-- desktop version -->
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/work/type.webp 1x, ./images/work/type@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/work/type.jpg 1x, ./images/work/type@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
-              <img
-                src="images/work/type.jpg"
-                class="work-images__example-pictures"
-                alt="друкує"
-                width="370"
-                height="294"
-              />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/type.webp    1x,
+                    ./images/work/type@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/type.jpg    1x,
+                    ./images/work/type@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="images/work/type.jpg"
+                  class="work-images__example-pictures"
+                  alt="друкує"
+                  width="370"
+                  height="294"
+                />
               </picture>
               <div class="our-job text">Десктопні додатки</div>
             </li>
             <li class="work-images__example">
               <picture>
                 <!-- desktop version -->
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/work/telefone.webp 1x, ./images/work/telefone@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/work/telefone.jpg 1x, ./images/work/telefone@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
-              <img
-                src="images/work/telefone.jpg"
-                class="work-images__example-pictures"
-                alt="звіряє"
-                width="370"
-                height="294"
-              />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/telefone.webp    1x,
+                    ./images/work/telefone@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/telefone.jpg    1x,
+                    ./images/work/telefone@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="images/work/telefone.jpg"
+                  class="work-images__example-pictures"
+                  alt="звіряє"
+                  width="370"
+                  height="294"
+                />
               </picture>
               <div class="our-job text">Мобільні додатки</div>
             </li>
             <li class="work-images__example">
               <picture>
                 <!-- desktop version -->
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/work/ipad.webp 1x, ./images/work/ipad@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/work/ipad.jpg 1x, ./images/work/ipad@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
-              <img
-                src="images/work/ipad.jpg"
-                class="work-images__example-pictures"
-                alt="малює"
-                width="370"
-                height="294"
-              />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/ipad.webp    1x,
+                    ./images/work/ipad@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/work/ipad.jpg    1x,
+                    ./images/work/ipad@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="images/work/ipad.jpg"
+                  class="work-images__example-pictures"
+                  alt="малює"
+                  width="370"
+                  height="294"
+                />
               </picture>
               <div class="our-job text">Дизайнерські рішення</div>
             </li>
@@ -299,51 +345,63 @@
             <li class="employees__card">
               <picture>
                 <!-- desktop version -->
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/team/igor-1200.webp 1x, ./images/team/igor-1200@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/team/igor-1200.jpg 1x, ./images/team/igor-1200@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/igor-1200.webp    1x,
+                    ./images/team/igor-1200@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/igor-1200.jpg    1x,
+                    ./images/team/igor-1200@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
                 <!-- tablet version -->
-                <source 
-                media="(min-width: 768px)" 
-                srcset="./images/team/igor-768.webp 1x, ./images/team/igor-768@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 768px)" 
-                srcset="./images/team/igor-768.jpg 1x, ./images/team/igor-768@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/igor-768.webp    1x,
+                    ./images/team/igor-768@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/igor-768.jpg    1x,
+                    ./images/team/igor-768@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
                 <!-- mobile version -->
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/igor-480.webp 1x, ./images/team/igor-480@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/igor-480 1x, ./images/team/igor-480@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
-              <img
-                src="images/team/igor-480.jpg"
-                class="employees__card-pictures"
-                alt="Ігор Дем'яненко"
-                width="450"
-                height="460"
-              />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/igor-480.webp    1x,
+                    ./images/team/igor-480@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/igor-480        1x,
+                    ./images/team/igor-480@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  src="images/team/igor-480.jpg"
+                  class="employees__card-pictures"
+                  alt="Ігор Дем'яненко"
+                  width="450"
+                  height="460"
+                />
               </picture>
               <div class="names-jobs-style">
                 <h3 class="names">Ігор Дем'яненко</h3>
@@ -399,52 +457,64 @@
             <li class="employees__card">
               <picture>
                 <!-- desktop version -->
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/team/repinaolga-1200.webp 1x, ./images/team/repinaolga-1200@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/team/repinaolga-1200.jpg 1x, ./images/team/repinaolga-1200@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/repinaolga-1200.webp    1x,
+                    ./images/team/repinaolga-1200@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/repinaolga-1200.jpg    1x,
+                    ./images/team/repinaolga-1200@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
                 <!-- tablet version -->
-                <source 
-                media="(min-width: 768px)" 
-                srcset="./images/team/repinaolga-768.webp 1x, ./images/team/repinaolga-768@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 768px)" 
-                srcset="./images/team/repinaolga-768.jpg 1x, ./images/team/repinaolga-768@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/repinaolga-768.webp    1x,
+                    ./images/team/repinaolga-768@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/repinaolga-768.jpg    1x,
+                    ./images/team/repinaolga-768@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
                 <!-- mobile version -->
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/repinaolga-480.webp 1x, ./images/team/repinaolga-480@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/repinaolga-480.jpg 1x, ./images/team/repinaolga-480@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
-              <img
-              class="employees__card-pictures"
-                src="images/team/repinaolga-480.jpg"
-                class="pictures"
-                alt="Ольга Рєпіна"
-                width="450"
-                height="460"
-              />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/repinaolga-480.webp    1x,
+                    ./images/team/repinaolga-480@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/repinaolga-480.jpg    1x,
+                    ./images/team/repinaolga-480@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="employees__card-pictures"
+                  src="images/team/repinaolga-480.jpg"
+                  class="pictures"
+                  alt="Ольга Рєпіна"
+                  width="450"
+                  height="460"
+                />
               </picture>
               <div class="names-jobs-style">
                 <h3 class="names">Ольга Рєпіна</h3>
@@ -500,52 +570,64 @@
             <li class="employees__card">
               <picture>
                 <!-- desktop version -->
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/team/mikola-1200.webp 1x, ./images/team/mikola-1200@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/team/mikola-1200.jpg 1x, ./images/team/mikola-1200@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/mikola-1200.webp    1x,
+                    ./images/team/mikola-1200@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/mikola-1200.jpg    1x,
+                    ./images/team/mikola-1200@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
                 <!-- tablet version -->
-                <source 
-                media="(min-width: 768px)" 
-                srcset="./images/team/mikola-768.webp 1x, ./images/team/mikola-768@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 768px)" 
-                srcset="./images/team/mikola-768.jpg 1x, ./images/team/mikola-768@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/mikola-768.webp    1x,
+                    ./images/team/mikola-768@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/mikola-768.jpg    1x,
+                    ./images/team/mikola-768@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
                 <!-- mobile version -->
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/mikola-480.webp 1x, ./images/team/mikola-480@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/mikola-480.jpg 1x, ./images/team/mikola-480@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
-              <img
-              class="employees__card-pictures"
-                src="images/team/mikola-480.jpg"
-                class="pictures"
-                alt="Микола Тарасов"
-                width="450"
-                height="460"
-              />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/mikola-480.webp    1x,
+                    ./images/team/mikola-480@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/mikola-480.jpg    1x,
+                    ./images/team/mikola-480@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="employees__card-pictures"
+                  src="images/team/mikola-480.jpg"
+                  class="pictures"
+                  alt="Микола Тарасов"
+                  width="450"
+                  height="460"
+                />
               </picture>
               <div class="names-jobs-style">
                 <h3 class="names">Микола Тарасов</h3>
@@ -601,52 +683,64 @@
             <li class="employees__card">
               <picture>
                 <!-- desktop version -->
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/team/michael-1200.webp 1x, ./images/team/michael-1200@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 1200px)" 
-                srcset="./images/team/michael-1200.jpg 1x, ./images/team/michael-1200@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/michael-1200.webp    1x,
+                    ./images/team/michael-1200@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/team/michael-1200.jpg    1x,
+                    ./images/team/michael-1200@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
                 <!-- tablet version -->
-                <source 
-                media="(min-width: 768px)" 
-                srcset="./images/team/michael-768.webp 1x, ./images/team/michael-768@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(min-width: 768px)" 
-                srcset="./images/team/michael-768.jpg 1x, ./images/team/michael-768@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/michael-768.webp    1x,
+                    ./images/team/michael-768@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/team/michael-768.jpg    1x,
+                    ./images/team/michael-768@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
                 <!-- mobile version -->
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/michael-480.webp 1x, ./images/team/michael-480@x2.webp 2x"
-
-                 type="image/webp"
-                 />
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/michael-480.jpg 1x, ./images/team/michael-480@x2.jpg 2x"
-
-                 type="image/jpeg"
-                 />
-              <img
-              class="employees__card-pictures"
-                src="images/team/michael-480.jpg"
-                class="pictures"
-                alt="Михайло Єрмаков"
-                width="450"
-                height="460"
-              />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/michael-480.webp    1x,
+                    ./images/team/michael-480@x2.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="
+                    ./images/team/michael-480.jpg    1x,
+                    ./images/team/michael-480@x2.jpg 2x
+                  "
+                  type="image/jpeg"
+                />
+                <img
+                  class="employees__card-pictures"
+                  src="images/team/michael-480.jpg"
+                  class="pictures"
+                  alt="Михайло Єрмаков"
+                  width="450"
+                  height="460"
+                />
               </picture>
               <div class="names-jobs-style">
                 <h3 class="names">Михайло Єрмаков</h3>
@@ -702,7 +796,7 @@
           </ul>
         </div>
       </section>
-      <section class="company"> 
+      <section class="company">
         <div class="container">
           <h2 class="main-text-roboto">Постійні клієнти</h2>
 
