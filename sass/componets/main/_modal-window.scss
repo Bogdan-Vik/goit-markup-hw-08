@@ -165,10 +165,10 @@
   transform: translateY(-50%);
   fill: var(--contact-color);
 
-  .contact-form-input:focus + & {
+  .contact-form-input:focus  & {
     fill: var(--accent-color);
   }
-  .contact-form-input:hover + & {
+  .contact-form-input:hover  & {
     fill: var(--accent-color);
   }
 }
