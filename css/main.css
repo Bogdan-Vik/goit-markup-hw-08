@@ -819,10 +819,10 @@ footer {
     font-size: 14px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .main-section-color {
     width: 100%;
-    height: 400px;
+    height: auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/background-480.jpg");
     background-size: cover;
     background-color: var(--background-color);
@@ -845,6 +845,18 @@ footer {
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+@media screen and (min-width: 480px) {
+  .main-section-color {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/background/background-480.jpg");
+    background-size: cover;
+    background-color: var(--background-color);
+    padding-top: 118px;
+    padding-bottom: 118px;
+    margin-bottom: 60px;
   }
   .main-section__text {
     margin-top: 0;
@@ -1172,9 +1184,10 @@ footer {
     margin-top: 0;
   }
   .employees__card-size {
-    width: 450px;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+    height: auto;
   }
   .portfolio-background {
     padding-top: 60px;

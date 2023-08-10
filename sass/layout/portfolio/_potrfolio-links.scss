@@ -19,8 +19,9 @@
     margin-top: 0;
   }
   .employees__card-size{
-    width: 450px;
+    width: 100%;
     object-fit: cover;
+    height: auto;
   }
   .portfolio-background {
     padding-top: 60px;
